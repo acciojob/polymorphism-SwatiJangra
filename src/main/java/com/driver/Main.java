@@ -11,11 +11,13 @@ public class Main {
         public double product(double x, double y) {
             return x*y;
         }
+
     }
+
     public static void main(String[] args) {
         Product p=new Product();
-        System.out.println(p.product(2,5));
-        System.out.println(p.product(3, 4, 6));
-        System.out.println(p.product(3.5, 7.8));
+        p.product(3,7);
+        p.product(2, 4, 7);
+        p.product(2.5, 7.8);
     }
 }
